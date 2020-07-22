@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+p{
+    color: #162434;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #162434;
+}
+
+.center{
+    width:800;
+    height:500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.selectBox{
+    width:20vw;
+    height: 5vh;
+}
+
+.boxik {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+box-sizing: border-box;
+
+}
+.buttons{
+    min-width: 50vw;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.contentBox{
+    width:  70vw;
+    min-height: 30vh;
+    margin-top:10vh ;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3D70AD;
+    box-sizing: border-box;
+    justify-content: start;
+    border-radius: 10px;
+}
+
+.forecastCards { 
+    width:  70vw !important;
+    min-height: 30vh;
+    margin-top:10vh ;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+    
+
+.btn{
+    min-width: 15vw;
+    min-height: 5vh;
+    background-color: #3D70AD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 20px;
+
+}
+.card{
+    width: 17vw;
+    min-height: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    background-color: #3D70AD;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.data{
+    width: 100%;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+
+.weatherInfo{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}

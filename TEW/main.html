@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Predpoveď počasia Martin Kubela</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="predpoved.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <img src="weather.jpg" alt="weather"  class="center">
+       <h1 class="center">Predpoveď počasia</h1> 
+        <div class="contentBox">
+            <div class="boxik">
+                <label>Zadaj mesto</label>
+                <input name="city" class="selectBox" id="citySelect" />
+            </div>
+
+            <div class="boxik">
+                <label>Favourites</label>
+                <select name="favCity" class="selectBox" id="favouriteSelect">
+                    <option selected="selected" value="none">Nevybrané</option>
+                </select>
+            </div>
+            <div class="buttons"> <button class="btn" id="btnPredpoved">Získaj predpoveď</button>
+                <button class="btn" id="btnFav"><i class="fa fa-heart"></i></button>
+                <button class="btn" id="btnDel"><i class="fa fa-trash"></i></button></div>
+
+        </div>
+
+
+        <div id="forecastCards" class="forecastCards">
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
