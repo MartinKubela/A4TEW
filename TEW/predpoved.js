@@ -53,7 +53,7 @@ function fetchDataFromApi(city) {
                         let windSPeed = objekt['windSpeed'];
                         let date = new Date(objekt['time'] * 1000);
                         let description = objekt['summary'];
-                        let currentHour = msToTime(objekt['time'] * 1000);
+                        let currentHour = msToTime(objekt['time'] * 2000);
 
 
                         $("#forecastCards").append(`<div class=\"card\"><h3>${date.getUTCDate()}.${date.getUTCMonth() + 1} ${currentHour}</h3><div class=\"data\"><p id=\"temp\">${temp}°C</p><p id=\"windSpeed\">${windSPeed}</p></div><div class=\"weatherInfo\"><p id=\"weatherDescription\">${description}</p></div></div>`);
